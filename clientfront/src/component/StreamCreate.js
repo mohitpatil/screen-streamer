@@ -31,7 +31,7 @@ class StreamCreate extends React.Component {
   }
 
   render() {
-    console.log("form Props:", this.props);
+   //console.log("form Props:", this.props);
     return (
       <form
         className="ui form error col-8"
