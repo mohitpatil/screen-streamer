@@ -3,9 +3,11 @@ import { connect } from "react-redux";
 import { fetchAllStreams } from "../action/index";
 
 class StreamList extends React.Component {
+
   componentDidMount() {
     this.props.fetchAllStreams();
   }
+
   renderList() {
     return this.props.streams.map(stream => {
       return (
@@ -13,21 +15,22 @@ class StreamList extends React.Component {
           <i className="large middle aligned icon camera" />
           <div className="content">
             {stream.title}
-            <div className="description">{stream.desciption}</div>
           </div>
+          <div className="description">{stream.description}</div>
         </div>
       );
     });
   }
   render() {
-    console.log(this.props.streams);
+    //console.log(this.props.streams);
     return (
-    <div>
-        <h2>Streams
-        </h2>
-        <div className="ui celled list">{this.renderList()}</div>
-    </div>,
-    <div>StreamList</div>);
+      (
+        <div>
+          <h2>Streams</h2>
+          <div className="ui celled list">{this.renderList()}</div>
+        </div>
+      )
+    );
   }
 }
 
