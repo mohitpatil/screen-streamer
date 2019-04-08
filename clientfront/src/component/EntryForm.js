@@ -46,7 +46,7 @@ class EntryForm extends React.Component {
           component={this.renderInput}
           label="Enter Description"
         />
-        <button className="ui blue button">Create Stream</button>
+        <button className="ui blue button">Update Stream</button>
       </form>
     );
   }
