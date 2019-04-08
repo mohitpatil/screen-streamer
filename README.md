@@ -9,7 +9,7 @@ There are 3 diffrent servers, we are using for this project.
 2) Open Another terminal, Go to api folder, this is Local JSON Data for this app, 
 run ### `npm install` and then ### `npm start`
 
-3) Go to smtpserver folder, this is used for Live Streaming your screen, Additional to this commands, you can also get OBD(https://obsproject.com/welcome), downlaod it and do the setup.
+3) Open Another terminal, Go to smtpserver folder, this is used for Live Streaming your screen, Additional to this commands, you can also get OBD(https://obsproject.com/welcome), downlaod it and do the setup.
 run ### `npm install` and then ### `npm start`
 
 
